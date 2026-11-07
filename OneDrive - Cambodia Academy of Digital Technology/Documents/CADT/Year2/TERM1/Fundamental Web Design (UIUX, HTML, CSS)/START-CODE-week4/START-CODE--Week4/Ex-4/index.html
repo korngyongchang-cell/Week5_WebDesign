@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <!-- Sidebar -->
+        <div class="side">
+
+            <div class="logo">H<span>arbor Roasters</span></div>
+
+            <div class="feature">
+                <a href="#overview">▦ <span>Overview</span></a>
+                <a href="#orders">▣ <span>Orders</span></a>
+                <a href="#stock">◇ <span>Stock</span></a>
+                <a href="#customers">♙ <span>Customers</span></a>
+            </div>
+
+        </div>
+
+        <!-- Main Dashboard -->
+        <div class="main">
+
+            <div class="header" id="overview">
+                <div>
+                    <h1>Good Morning, BathBadBoy</h1>
+                    <p>Here's how the roastery is doing this week.</p>
+                </div>
+
+                <button>+ New Order</button>
+            </div>
+
+            <!-- Head section -->
+            <div class="meterail">
+
+                <div class="info">
+                    <p>Total Revenue</p>
+                    <h2>$12,450</h2>
+                    <span>+12.5% this week</span>
+                </div>
+
+                <div class="info">
+                    <p>Total Orders</p>
+                    <h2>245</h2>
+                    <span>+8.2% this week</span>
+                </div>
+
+                <div class="info">
+                    <p>Customers</p>
+                    <h2>180</h2>
+                    <span>+5.4% this week</span>
+                </div>
+
+                <div class="info">
+                    <p>Products Sold</p>
+                    <h2>520</h2>
+                    <span>+10.1% this week</span>
+                </div>
+
+            </div>
+
+            <!-- Middle Section -->
+            <div class="content">
+
+                <div class="sales">
+                    <h2>Sales Overview</h2>
+                    <p>Weekly sales performance</p>
+
+                    <div class="chart">
+
+                        <div class="bar">
+                            <div class="bar1" style="height:40%"></div>
+                            <span>Mon</span>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar1" style="height:65%"></div>
+                            <span>Tue</span>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar1" style="height:50%"></div>
+                            <span>Wed</span>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar1" style="height:85%"></div>
+                            <span>Thu</span>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar1" style="height:60%"></div>
+                            <span>Fri</span>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar1" style="height:95%"></div>
+                            <span>Sat</span>
+                        </div>
+
+                        <div class="bar">
+                            <div class="bar1" style="height:70%"></div>
+                            <span>Sun</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="popular" id="stock">
+                    <h2>Popular Products</h2>
+
+                    <div class="product">
+                        <span>Espresso</span>
+                        <b>120 sold</b>
+                    </div>
+
+                    <div class="product">
+                        <span>Latte</span>
+                        <b>95 sold</b>
+                    </div>
+
+                    <div class="product">
+                        <span>Cappuccino</span>
+                        <b>80 sold</b>
+                    </div>
+
+                    <div class="product">
+                        <span>Americano</span>
+                        <b>65 sold</b>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Recent Orders -->
+            <div class="orders" id="orders">
+
+                <h2>Recent Orders</h2>
+
+                <table>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Product</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>#1001</td>
+                        <td>John Smith</td>
+                        <td>Latte</td>
+                        <td>$12.00</td>
+                        <td class="completed">Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>#1002</td>
+                        <td>Sarah Lee</td>
+                        <td>Espresso</td>
+                        <td>$8.00</td>
+                        <td class="pending">Pending</td>
+                    </tr>
+
+                    <tr>
+                        <td>#1003</td>
+                        <td>David Kim</td>
+                        <td>Cappuccino</td>
+                        <td>$15.00</td>
+                        <td class="completed">Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>#1004</td>
+                        <td>Emma Brown</td>
+                        <td>Americano</td>
+                        <td>$10.00</td>
+                        <td class="pending">Pending</td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
