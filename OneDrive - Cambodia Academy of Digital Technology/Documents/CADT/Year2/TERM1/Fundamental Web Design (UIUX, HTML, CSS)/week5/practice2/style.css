@@ -1,0 +1,43 @@
+body{
+    margin:20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: gray;
+    height: 30px;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+}
+
+.bar{
+    display:grid;
+    grid-template-columns: repeat(4,5em);  
+    justify-self: end;
+}
+
+.bars{
+    color: white;
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width:768px){
+    .bar{
+        grid-template-columns: 1;
+        display: none;
+    }
+    .menu{
+        display:block;
+        justify-self: end;
+    }
+    .container{
+        padding :0px 10px 0px 0px;
+    }
+}
+
